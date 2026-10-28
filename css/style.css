@@ -153,9 +153,7 @@ body.bodylogin{
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
-}
-.wrapper .btn:hover{
-	color: red;
+	transition: all ;
 }
 .wrapper .register-link{
 	font-size: 14px;
@@ -173,7 +171,24 @@ body.bodylogin{
 	
 }
 
-
+@media (max-with: 800px){
+	body.bodylogin{
+		background: url('../imagenes/sport.jpg') no-repeat;
+	}
+}
+@media (max-with: 450px){
+	body.bodylogin {
+		background: #333;
+		background-image: none;
+	}
+}
+/*
+1. 450px
+bg(#333)
+2. 800px
+bg img
+3. normal
+*/
 
 
 
