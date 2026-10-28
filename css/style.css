@@ -175,6 +175,8 @@ body.bodylogin{
 	
 }
 
+
+
 @media (max-width: 800px){
 	body.bodylogin{
 		background: url('../imagenes/sport.jpg') no-repeat;
@@ -234,39 +236,6 @@ bg img
 
 
 
-/* ------------- Media Queries para Responsividad ------------- */
 
-
-
-
-/* ------------- Media Queries para Responsividad ------------- */
-
-
-@media (max-width: 768px) {
-    
-    
-    header.mainHeader, section.mainSlider, section.news, footer.mainFooter {
-        width: 100%;
-    }
-
-    
-    header.mainHeader h2 {
-        width: 100%;
-        text-align: center;
-        padding: 15px 0;
-    }
-
-    header.mainHeader nav {
-        width: 100%;
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    section.news .newsItem {
-        width: 90%;
-        display: block; 
-        margin: 10px auto; 
-    }
-}
 
 
